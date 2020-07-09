@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CV Victor Bacarin</title>
+		
+
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+
+		<link rel="stylesheet" href="css/style.css"/>
+		<script src="js/functions.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Victor Felipe Bacarin</h1>
+			<img class=profile src="imgs/profilephoto.PNG" alt="Foto Victor"/ width="200" height="200">	
+			<p>Brasileiro, Presidente Prudente, São Paulo<br/ > E-mail: victor.bacarin@hotmail.com</p>
+			<p><a class="linkweb" href="https://www.linkedin.com/in/vfbacarin/">linkedin.com/in/vfbacarin/</a></p>
+			     
+			<nav>
+			<a class="navegacao" href = "">Página 1</a>
+			<a class="navegacao" href = "">Página 2</a>
+			<a class="navegacao" href = "">Página 3</a>
+			<a class="navegacao" href = "">Página 4</a>
+   		   </nav>
+		</header>
+
+		<h2>Resumo</h2>
+			<p>Nascido no interior de São Paulo, foi o primeiro integrante de sua família a fazer graduação e sair da zona de conforto e ir morar em outra cidade sozinho. Sempre buscou por seus objetivos, sendo uma pessoa dedicada e com muito foco. Dentre suas principais paixões, se tem a realização de projetos, o que engloba a área de criação e desenvolvimento de algo desde o princípio, como também a área de resolver problemas de setores distintos. <br/ >
+			- Pontos Fortes: Raciocínio, Estratégia e Lógica<br/ >
+			- Pontos Fracos: Lado emocional fraco<br/ >
+			- Objetivo de vida: Ser o melhor no que faz<br/ >
+			- Medos: Medo de Falhar, Críticas</p>
+		
+
+
+		<section>
+			<h2>Formação Acadêmica</h2>
+				
+				<details><summary>UNICAMP - Universidade Estadual de Campinas – Limeira, Brasil</summary>
+				<p>Engenharia de Telecomunicações</p>
+	  			<p><a class="linkweb" href="https://www.ft.unicamp.br/pt-br/graduacao/cursos/et">Clique Aqui para mais Informações</a></p>
+				</details>
+				
+				<details><summary>UNIBO – Universidade de Bologna – Bologna, Itália</summary>
+				<p>Intercâmbio Acadêmico</p>
+	  			<p><a class="linkweb" href="https://www.unibo.it/en">Clique Aqui para mais 	Informações</a></p>
+				</details>
+
+				<details><summary>SENAI - Serviço Nacional de Aprendizagem Industrial – Presidente Prudente, Brasil</summary>
+				<p>Técnico em Eletroeletrônica</p>
+	  			<p><a class="linkweb" href="http://www.sp.senai.br/cursos/76652/126/tecnico-de-eletroeletronica.html">Clique Aqui para mais 	Informações</a></p>
+				</details>
+
+		</section>
+
+		<section>
+			<h2>Experiências</h2>
+				<details><summary>FAPESP - Fundação de Amparo à Pesquisa do Estado de São Paulo – Limeira, Brasil</summary>
+				<p>Pesquisador em Iniciação Científica com bolsa</p>
+				<p>Desenvolvimento de uma mão biônica controlada por comando de voz, elaborando tanto sua mecânica, quanto sua programação para realização dos movimentos.</p>
+	  			<p><a class="linkweb" href="http://www.fapesp.br/">Clique Aqui para mais Informações</a></p>
+				</details>
+
+				<details><summary>UNICAMP - Universidade Estadual de Campinas – Limeira, Brasil</summary>
+				<p>PAD – Programa de Apoio Didático com bolsa</p>
+				<p>Suporte ao ensino de Microcontroladores 2, disciplina do curso de Engenharia de Telecomunicações, com aplicações com microcontroladores, tendo como ênfase a placa Freedom Board KL25Z.</p>
+	  			<p><a class="linkweb" href="https://www.prg.unicamp.br/?page_id=695">Clique Aqui para mais Informações</a></p>
+				</details>
+
+				<details><summary>Atividades Extracurriculares</summary>
+				<p>Avaliação de computadores obtidos através de doações, visando a construção de um centro de computação para crianças da comunidade.</p>
+	  			<p><a class="linkweb" href="http://www.aldeialimeira.org.br/">Clique Aqui para mais Informações</a></p>
+				</details>
+		</section>
+
+
+		<section>
+		<h2>Idiomas e Habilidades Técnicas</h2>
+
+			<details><summary>Idiomas</summary>
+			<ul>
+	 		<li>Português (nativo)</li>
+	  		<li>Inglês (avançado)</li>
+			</ul>
+			</details>
+
+			<details><summary>Habilidades</summary>
+			<ul>
+	 		<li>Microsoft Office</li>
+	  		<li>Facilidade em programação</li>
+			</ul>
+			</details>	
+
+			<details><summary>Hobbies/Interesses</summary>
+			<ul>
+	 		<li>Correr</li>
+	  		<li>Cinema</li>
+	  		<li>Viajar</li>
+			</ul>
+      		</details>
+		</section>
+  		
+		
+		<section class="figures">
+
+  			<button type="button" onclick="openMe()">Abrir Linha do Tempo!</button>
+ 			<button type="button" onclick="closeMe()">Fechar Linha do Tempo!</button>	
+   			<hr/>
+
+ 			<div id="figuresDiv">
+
+  				<img class=icon onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu bebê!" src="imgs/baby.PNG">
+  				<img class=icon onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu estudando!" src="imgs/student.PNG"/>
+  				<img class=icon onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu trabalhando!" src="imgs/worker.PNG"/>
+  				<img class=icon onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu aposentado!" src="imgs/old.PNG"/>
+
+  				<div id="frame" class="frame">
+   				 Figura
+  				</div>
+  			
+  			</div>	
+		</section>
+		<section>
+
+
+
+
+
+			
+	<h1>Fale comigo:</h1>
+    
+    <form id = "contactForm">
+      <p>
+	<label>Name: <input type="text" name="name" id="name"/></label>
+      </p>
+      <p>
+	<label>Company:<input type="text" name="company" id="company"/>
+      </p>
+      <p>
+	<label>Email:<input type="email" name="email"/>
+      </p>
+      <p>
+	<label>Phone:<input type="text" name="phone" id="phone"/>
+      </p>
+      <p>
+	<label>Message:</br><textarea name="message" rows="10" cols="33" id="message"></textarea>
+	</label>
+      </p>
+      <p>
+	<button type="submit" onclick="return submitForm()">Submit</button>
+      </p>
+    </form>
+    
+    <div class="closed" id="confirm">Your Message has been sent!</>
+
+
+
+
+
+
+		</section>
+  
+
+		<footer>
+			<p>Currículo produzido em 10 de Abril de 2020</p>
+		</footer>
+
+	</body>
+</html>

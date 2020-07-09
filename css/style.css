@@ -1,0 +1,140 @@
+body{
+	background:	#DCDCDC;
+	font-size: 125%;
+	font-family: Calibri,"Times New Roman", serif;
+	margin: 4%;
+}
+
+header{
+	background: #363636;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Times New Roman", serif;
+	padding: 5px;
+}
+
+section {
+	display: inline-block;
+	width: 31%;
+	float:left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 5%;
+}
+
+summary{
+	text-align: left;
+	font-style: italic;
+ 	font-weight: bold;
+}
+
+footer{
+	background: #363636;
+	text-align: center;
+	color: #ffffff;
+	clear: both;
+ 	font-size: 80%;
+}
+
+h2{
+	background: #4F4F4F;
+	color: #ffffff;
+	font-variant: small-caps;
+	text-align: center;
+}
+section.figures {
+	display: inline-block;
+	width: 100%;
+	float:left;
+	margin-bottom: 5%;
+	text-align: center;		
+    margin-left: auto;
+    margin-right: auto;
+    background: #d3d3d3;
+}
+
+a.navegacao{
+	display: inline-block;
+	font-weight: bold;
+	width: 10%;
+	color: #363636;
+	background-color: #C0C0C0;
+	margin: 1%;
+	text-decoration: none;
+	padding: 2px;
+	border-radius: 33px;
+}
+
+a.navegacao:hover{
+	background: #131313;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 1px;
+}
+
+a.navegacao:focus{
+	background: #131313;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 1px;
+}
+
+a.linkweb:link {
+  color: #0000FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.linkweb:visited {
+  color: #FF0000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.linkweb:hover {
+  color: #FFFF00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.linkweb:active {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.closed{
+    display:none;
+}
+
+.open{
+    display:block;
+}
+
+.frame{
+    font-weight: bold;
+    font-size: 150%;
+    text-align:center;
+    background:#ffffff;
+    height:400px;
+    width:400px;
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+div{
+	text-align:center; 
+}
+
+img.profile{
+	border-radius: 100px;
+}
+
+img.icon {
+    display: inline-block;
+    width:45px;
+    height:45px;
+}
