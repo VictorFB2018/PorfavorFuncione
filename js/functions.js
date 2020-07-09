@@ -44,7 +44,8 @@ function submitForm(){
     console.log(name)
 
     saveMessage(name, company, email, phone, message)
-    
+    afterSend()
+
     return false;
 }
 
@@ -76,6 +77,16 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
+function afterSend(){
+    confirm = document.getElementById("confirm")
+    confirm.className = "open"
+    setTimeout(
+        function(){
+        confirm.className = "closed";
+    },3000);
+    document.getElementById('submitForm').reset();
+}
 
 // 
 
